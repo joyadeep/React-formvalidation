@@ -1,0 +1,76 @@
+/* input
+{
+    border:2px solid red;
+    height: 10px;
+    border-radius: 5px;
+    border:transparent;
+    background-color: rgb(243, 221, 243);
+    font-size: 16px;
+    padding-left: 10px;
+} */
+.inp
+{
+    /* border-color: red; */
+    outline: none;
+    border: 1px solid red;
+   /* outline-color: red !important; */
+}
+span{
+    font-size: small;
+}
+
+.yupform
+{
+    background-color: rgb(247, 222, 226);
+    width: 400px;
+    height: fit-content;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* align-items: center; */
+   
+}
+
+.yupform form input{
+    background-color: white;
+    height: 35px;
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border:transparent;
+    /* background-color: rgb(243, 221, 243); */
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.yupform form{
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    width: fit-content;
+    margin: 0 auto;
+}
+h2{
+    /* border: 2px solid red; */
+    /* line-height: normal; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+small{
+    color: red;
+    padding-left: 10px;
+}
+button{
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(1, 116, 1);
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+
+button:hover
+{
+    background-color:rgb(0, 148, 0) ;
+}
